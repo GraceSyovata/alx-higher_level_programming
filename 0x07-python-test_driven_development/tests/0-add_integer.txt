@@ -1,0 +1,19 @@
+add_integer = __import__('0-add_integer').add_integer
+
+# Adding two integers
+add_integer(0, 0)  # Output: 0
+add_integer(15, 0)  # Output: 15
+add_integer(0, 15)  # Output: 15
+add_integer(-2, 2)  # Output: 0
+add_integer(2, -2)  # Output: 0
+
+# Handling error cases
+add_integer(2)  # Output: 100
+# Output: TypeError: add_integer() missing 1 required positional argument: 'a'
+# Output: TypeError: a must be an integer
+# Output: TypeError: a must be an integer
+# Output: TypeError: a must be an integer
+# Output: TypeError: b must be an integer
+# Output: OverflowError: cannot convert float infinity to integer
+# Output: ValueError: cannot convert float NaN to integer
+
